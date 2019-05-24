@@ -1,0 +1,245 @@
+.navigation{
+	background: black;
+}
+.navbar{
+	margin: -10px -10px;
+}
+.abhi{
+	color: red;
+}
+.logo{
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+}
+strong{
+	font-size: 29px;
+}
+small{
+	font-size: 10px;
+	padding-bottom: 20px;
+	margin-top: -20px;
+}
+@media screen and (max-width: 678px){
+	nav .navbar-nav li a{
+		float: right;
+	}
+}
+@media screen and (max-width: 576px;){
+	nav .navbar-nav li a{
+		float: left;
+	}
+}
+.jumbo-content{
+	text-align: right;
+	font-size: 75px;
+	margin-bottom: -38px;
+	line-height: 1.5em;
+	font-stretch: ultra-condensed;
+}
+.jumbo-content1{
+	font-size: 75px;
+	text-align: right;
+}
+@media screen and (max-width: 678px){
+	.jumbo-content{
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+}
+@media screen and (max-width: 678px){
+	.jumbo-content1{
+		font-size: 30px;
+	}
+}
+.carousel-item{
+	max-width: 100% !important;
+	margin-top: 10px;
+	border-bottom: 12px solid black;
+}
+.carousel{
+	padding-bottom: 40px;
+
+}
+.control-icon{
+	background: black;
+	border-radius: 50%;
+	padding: 27px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 678px){
+	.control-icon{
+		padding: 14px;
+	}
+}
+.btn{
+	float: right;
+}
+.icon{
+	text-align: center;
+}
+.icon-class .fab{
+	font-size: 30px;
+	background :black;
+	color: white;
+	padding: 20px;
+	border-radius: 70px;
+}
+.social .fab{
+	background: white;
+	border-radius: 7px;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+}
+.fa-facebook-f{
+	padding: 10px 15px;
+}
+h3{
+	padding-top: 23px;
+	padding-bottom: 6px;
+	text-align: center;
+}
+.hash{
+	border-bottom: 5px solid black;
+	padding-top: 20px;
+}
+.hash1{
+	border-bottom: 2px solid grey;
+	margin-top: -13px;
+}
+.over{
+	text-align: center;
+	color: black;
+	padding-top: 25px;
+	padding-left: 42%;
+}
+.over-content{
+	width: 25%;
+	border:1px solid white;
+	margin-top: -50px;
+	padding: 10px;
+	background: white;
+}
+@media screen and (max-width: 678px){
+	.over-content{
+		width: 50%;
+		border:1px solid white;
+		padding: 10px;
+	}
+	.over{
+		padding-left: 34%;
+	}
+}
+.img-div{
+	padding-top: 20px;
+}
+.image{
+	height: auto;
+	width: 100%;
+}
+@media screen and (max-width: 678px){
+	.image{
+		padding: 15px 40px;
+		height: auto;
+		width: 100%;
+	}
+}
+.lead{
+	text-align: center;
+	color: #95876A;
+}
+.content{
+	text-align: center;
+
+}
+@media screen and (max-width: 678px){
+	.content{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+#more, #more1, #more2{
+	display: none;
+}
+
+#myBtn, #myBtn1, #myBtn2{
+	border-radius: 7px;
+}
+.footer-div{
+	background: black;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+footer{
+	color: white;
+	padding-top: 15px;
+}
+.footer-div-2{
+	float: right;
+	color: white;
+}
+@media screen and (max-width: 678px){
+	.footer-div-2{
+		text-align: center;
+	}
+}
+.footer-div-2 li a{
+	color: white;
+}
+
+.footer-icon{
+	display: inline;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 14px;
+}
+@media screen and (max-width: 678px){
+	.footer-icon{
+		text-align: center;
+	}
+}
+.footer-form{
+	display: inline;
+}
+.footer-form input{
+	border-radius: 6px;
+}
+.footer-content{
+	font-size: 14px;
+	float: left;
+}
+@media screen and (max-width: 678px){
+	.footer-content{
+		text-align: center;
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+}
+label{
+	font-size: 14px;
+}
+form{
+	margin-bottom: -12px;
+}
+@media screen and (max-width: 678px){
+	form{
+		text-align: center;
+	}
+	.footer-form input[type="text"]{
+		width: 48%;
+	}
+	.footer-form input[type="submit"]{
+		width: 20%;
+	}
+}
+.footer-div-heading{
+	font-size: 20px;
+}
+.footer-copy{
+	text-align: center;
+	font-size: 13px;
+	padding: 10px 19px;
+}
